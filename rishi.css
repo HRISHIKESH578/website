@@ -1,0 +1,55 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #ac2020;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    color: #223655;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Content styles */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(66, 79, 104);
+    text-align: center;
+}
+
+.content h1 {
+    color: #333;
+}
+
+.content p {
+    color: #37cfa9;
+    line-height: 1.6;
+}
